@@ -43,3 +43,4 @@ clippy.enum_variant_names = "allow"
 [patch."crates-io"]
 gix-protocol = { path = "/Users/byron/dev/github.com/GitoxideLabs/gitoxide/gix-protocol" }
 gix-transport = { path = "/Users/byron/dev/github.com/GitoxideLabs/gitoxide/gix-transport" }
+gix-hash = { path = "/Users/byron/dev/github.com/GitoxideLabs/gitoxide/gix-hash" }
