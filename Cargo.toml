@@ -1,33 +1,33 @@
 [workspace]
 package.version = "0.9.0"
 members = [
-  "radicle",
-  "radicle-cob",
-  "radicle-cli",
-  "radicle-cli-test",
-  "radicle-crdt",
-  "radicle-crypto",
-  "radicle-dag",
-  "radicle-fetch",
-  "radicle-node",
-  "radicle-remote-helper",
-  "radicle-ssh",
-  "radicle-tools",
-  "radicle-signals",
-  "radicle-systemd",
+    "radicle",
+    "radicle-cob",
+    "radicle-cli",
+    "radicle-cli-test",
+    "radicle-crdt",
+    "radicle-crypto",
+    "radicle-dag",
+    "radicle-fetch",
+    "radicle-node",
+    "radicle-remote-helper",
+    "radicle-ssh",
+    "radicle-tools",
+    "radicle-signals",
+    "radicle-systemd",
 ]
 default-members = [
-  "radicle",
-  "radicle-cli",
-  "radicle-cob",
-  "radicle-crdt",
-  "radicle-crypto",
-  "radicle-node",
-  "radicle-ssh",
-  "radicle-remote-helper",
-  "radicle-term",
-  "radicle-signals",
-  "radicle-systemd",
+    "radicle",
+    "radicle-cli",
+    "radicle-cob",
+    "radicle-crdt",
+    "radicle-crypto",
+    "radicle-node",
+    "radicle-ssh",
+    "radicle-remote-helper",
+    "radicle-term",
+    "radicle-signals",
+    "radicle-systemd",
 ]
 resolver = "2"
 
@@ -39,3 +39,7 @@ incremental = false
 [workspace.lints]
 clippy.type_complexity = "allow"
 clippy.enum_variant_names = "allow"
+
+[patch."crates-io"]
+gix-protocol = { path = "/Users/byron/dev/github.com/GitoxideLabs/gitoxide/gix-protocol" }
+gix-transport = { path = "/Users/byron/dev/github.com/GitoxideLabs/gitoxide/gix-transport" }
